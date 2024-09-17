@@ -36,8 +36,17 @@ While you could add new projects to your workspace manually, you might want to l
 
 Use the plugin's generator to create new projects.
 
+
+npx nx run-many --target=build --all --verbose
+To build all targets:
+
+```sh
+npx nx run-many --target=build --all --verbose
+```
+
+
 To generate a new application, use:
- 
+
 ```sh
 npx nx g @nx/react:app demo
 ```
