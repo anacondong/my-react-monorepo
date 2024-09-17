@@ -37,7 +37,7 @@ While you could add new projects to your workspace manually, you might want to l
 Use the plugin's generator to create new projects.
 
 To generate a new application, use:
-
+ 
 ```sh
 npx nx g @nx/react:app demo
 ```
